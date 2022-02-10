@@ -1,0 +1,10 @@
+provider "aws" {
+region = "ap-southeast-1"
+access_key = "AKIAWGAGKTXME7NNCLFZ"
+secret_key = "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"
+}
+
+resource "aws_s3_bucket" "pees1211" {
+acl = "private"
+bucket = "itsok"
+}
