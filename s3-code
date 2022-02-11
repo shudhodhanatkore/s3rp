@@ -1,7 +1,7 @@
 provider "aws" {
-region = "ap-southeast-1"
-access_key = "AKIAWGAGKTXME7NNCLFZ"
-secret_key = "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"
+region = "us-west-1"
+access_key = "AKIAWGAGKTXMIMXVMSIN"
+secret_key = "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"
 }
 
 resource "aws_s3_bucket" "pees1211" {
